@@ -2,121 +2,373 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Pijush Manna - Android Developer Portfolio</title>
-  <meta name="description" content="Welcome to my portfolio! I'm Pijush Manna, a Senior Android Developer with 5 years of experience. I’m passionate about building amazing Android apps by following best practices and always staying up-to-date with new technologies. For me, app development is not just about coding—it’s about creating an exceptional user experience and continually learning and improving my skills.">
-  <meta name="keywords" content="Android development expert,Senior Android developer,Experienced Android app developer,Best Android app development practices,Android UI/UX design,Mobile app development,Custom Android apps,Java and Kotlin Android development,Android app optimization,Android development best practices,Tech-driven Android development,Android software architecture,Cross-platform app development,App performance tuning,Agile Android development,Android development for startups,Innovative Android solutions,Android app scalability,Mobile app testing and debugging,Expert Android programming  ">
-
-  <!-- Favicons -->
-  <link href="assets/img/android.png" rel="icon">
-  <link href="assets/img/android.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="Pijush Manna, portfolio, Pijush, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description"
+    content="Welcome to Pijush's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Portfolio | Pijush Manna</title>
 </head>
 
-<body class="index-page">
+<body oncontextmenu="return false">
 
-  <header id="header" class="header d-flex align-items-center light-background sticky-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+  <!-- pre loader -->
+  <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"></h1>
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo">Portfolio</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Hi There,<br /> I'm Pijush <span>Manna</span></h2>
+      <p>i am into <span class="typing-text" /></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
       </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="Play Store" aria-label="PlayStore"
+              href="https://play.google.com/store/apps/dev?id=6420808460803251421" target="_blank"><i
+                class="fab fa-google-play"></i></a></li>
+          <li><a class="Youtube" aria-label="Youtube" href="https://www.youtube.com/@technicology4252"
+              target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/pijushmanna/"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/PijushManna" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="medium" aria-label="Medium" href="https://medium.com/@pijushmanna12344"><i class="fab fa-medium"
+                target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="https://dev.to/pijushmanna" target="_blank"><i
+                class="fab fa-dev"></i></a></li>
+          <li><a class="Stack Overflow" aria-label="StackOverflow"
+              href="https://stackoverflow.com/users/10370374/pijush-manna" target="_blank"><i
+                class="fab fa-stack-overflow"></i></a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <a href="https://x.com/pijushm919" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61572558287630" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/pijushm919/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/pijushmanna/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
-  </header>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+  </section>
+  <!-- hero section ends -->
 
-  <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
-      <img src="assets/img/bg.png" alt="" data-aos="fade-in">
+    <div class="row">
 
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Pijush Manna</h2>
-            <p>I'm a professional Android Developer from West Bengal.</p>
-            <a href="about.html" class="btn-get-started">About Me</a>
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/my_profile_pic.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Pijush</h3>
+        <span class="tag">Android Application Developer</span>
+
+        <p>I am a Android developer based in West Bengal, India.
+          I am an Computer Science graduate from AOT.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build Android Apps in Java & Kotlin.
+          Past companies ADP, BigBasket.
+          Current company - PocketFM. </p>
+
+        <div class="box-container">
+          <div class="box">
+            <p><span> age: </span> 28</p>
+            <p><span> phone : </span> +91 7872723447</p>
+          </div>
+          <div class="box">
+            <p><span> email : </span> pijushm919@gmail.com</p>
+            <p><span> place : </span> WB, India - 712410</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://docs.google.com/document/d/1RyvmydPR3faPo3FZl1tv_KrvbWm9-_8EDPmDj59NdyU/view?usp=sharing"
+            target="_blank" class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer" />
+
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Bachelor of Technology in Computer Science</h3>
+          <p>Academy of Technology | Adisaptagram</p>
+          <h4>2015-2019 | Completed</h4>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/educat/rnbpchs.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>10 and 12<sup>th</sup> specializing in Science</h3>
+          <p>Ramnagar NBPC High School | Ramnagar</p>
+          <h4>2012-15 | Completed</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+
+      <div class="box tilt">
+        <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>Portfolio Website</h3>
+          </div>
+          <div class="desc">
+            <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+            <div class="btns">
+              <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/Pijush-sable/Portfolio-Website" class="btn" target="_blank">Code <i
+                  class="fas fa-code"></i></a>
+            </div>
           </div>
         </div>
       </div>
 
-    </section><!-- /Hero Section -->
+    </div>
 
-  </main>
+  </section>
+  <!-- work project section ends -->
 
-  <footer id="footer" class="footer light-background">
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Pijush Manna</strong> <span>All Rights Reserved<br></span></p>
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+    <div class="timeline">
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>PocketFM</h2>
+          </div>
+          <div class="desc">
+            <h3>Senior Android Developer</h3>
+            <p>Sep 2023 - present</p>
+          </div>
+        </div>
       </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/pijushm919" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61572558287630" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/pijushm919/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/pijushmanna/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>BigBasket</h2>
+          </div>
+          <div class="desc">
+            <h3>SDE - 2, Android Developer </h3>
+            <p>Jan 2022 - Aug 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>ADP</h2>
+          </div>
+          <div class="desc">
+            <h3>Software Development Engineer</h3>
+            <p>2019 - 2022</p>
+          </div>
+        </div>
       </div>
     </div>
 
-  </footer>
+  </section>
+  <!-- experience section ends -->
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Pijush's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
+          🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+        <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 7872723447</p>
+        <p> <i class="fas fa-envelope"></i>pijushm919@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>West Bengal, India-712410</p>
+        <div class="share">
+
+          <a href="https://www.linkedin.com/in/pijushmanna/" class="fab fa-linkedin" aria-label="LinkedIn"
+            target="_blank"></a>
+          <a href="https://github.com/PijushManna" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:pijushm919@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+          <a href="https://medium.com/@pijushmanna12344" class="fab fa-medium" aria-label="medium" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="https://www.linkedin.com/in/pijushmanna/"> Pijush Manna</a></h1>
+
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assets/js/script.js"></script>
 
 </body>
 

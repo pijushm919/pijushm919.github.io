@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Jungle Maths",
+    "desc": "The app is designed to help kids develop problem-solving and critical thinking skills.",
+    "image": "jungle_maths",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.blogspot.junglemaths"
+    }
+  },
+  {
+    "name": "Math Puzzle IQ test",
+    "desc": "Math Riddles level up your IQ with a mix of logical puzzles.",
+    "image": "math_puzzle",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.blogspot.oneminquiz"
+    }
+  },
+  {
+    "name": "One Minute Math",
+    "desc": "One Minute Maths is designed to build number confidence and fluency for children of all levels.",
+    "image": "omm",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.blogspot.oneminmaths"
+    }
+  },
+  {
+    "name": "CodeBox",
+    "desc": " Master Leetcode, C & Java Patterns | Practice Coding & Algorithms.",
+    "image": "codebox",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.codebox.www"
+    }
+  },
+  {
+    "name": "QR Scanner",
+    "desc": "Easy QR and Barcode Scanner",
+    "image": "qr_scanner",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.blogspot.easyqrscanner"
+    }
+  },
+  {
+    "name": "Home Workout Master",
+    "desc": "Start working out without any schedule. More is coming.",
+    "image": "home_workout",
+    "category": "android",
+    "links": {
+      "view": "https://play.google.com/store/apps/details?id=com.pijushm.homeworkout"
+    }
+  }
+]
